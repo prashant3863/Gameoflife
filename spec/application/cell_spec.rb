@@ -13,5 +13,9 @@ describe "cell" do
     cell =Cell.new(state)
     expect(cell).to be_alive
   end
+
+    it "new libe cell" do
+    expect(Cell.new_live_cell).to be_alive
+  end
 end
 

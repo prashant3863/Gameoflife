@@ -14,6 +14,10 @@ class Cell
 	def alive?
 		@state == ALIVE
 	end
+
+	def self.new_live_cell
+		Cell.new(ALIVE)
+	end
 end
 
 
